@@ -1,4 +1,12 @@
 @media screen and (max-width: 880px) {
+    body{
+        background-image: url(pik.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 100vw;
+        font-family: sans-serif;
+      }    
+
     .start_btn,
 .info_box,
 .quiz_box,
@@ -17,14 +25,14 @@
     opacity: 1;
     z-index: 5;
     pointer-events: auto;
-    transform: translate(-42%, -41%) scale(0.5);
+    transform: translate(-42%, -41%) scale(0.7);
 }
 
 .info_box{
     width: 450px;
     background: #fff;
     border-radius: 50px;
-    transform: translate(-42%, -41%) scale(0.5);
+    transform: translate(-42%, -41%) scale(0.7);
     opacity: 0;
     pointer-events: none;
     transition: all 0.3s ease;
@@ -34,7 +42,7 @@
     width: 500px;
     background: #fff;
     border-radius: 50px;
-    transform: translate(-42%, -41%) scale(0.5);
+    transform: translate(-42%, -41%) scale(0.7);
     opacity: 0;
     pointer-events: none;
     transition: all 0.3s ease;
@@ -49,7 +57,7 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    transform: translate(-42%, -41%) scale(0.5);
+    transform: translate(-42%, -41%) scale(0.7);
     opacity: 0;
     pointer-events: none;
     transition: all 0.3s ease;
